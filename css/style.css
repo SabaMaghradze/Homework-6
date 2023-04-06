@@ -1,0 +1,82 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin-inline: auto;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    display: flex;
+    padding: 53px 98px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aquamarine;
+}
+
+nav {}
+
+nav ul li {
+    font-size: 24px;
+    color: #758BFD;
+    display: inline-block;
+}
+
+.services {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.magnifier {
+    border: 3px solid #27187F;
+    border-radius: 10px;
+    width: 221px;
+    height: 55px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.fa-magnifying-glass {
+    /* fontawesome-dan chaviwere surati, marto magnifying glassi ar aris, backgroundic gadmoyva da ver gavaswore zomashi */
+    background-color: blue;
+    width: 39px;
+    height: 39px;
+}
+
+/* section */
+
+section {
+    width: 100%;
+    background: #DDEAF8;
+    padding: 94px 98px 135px 98px;
+}
+
+article {
+    font-size: 32px;
+    color: #27187F;
+    margin-bottom: 63px;
+}
+
+p {
+    font-size: 20px;
+    width: 340px;
+    color: #133B3A;
+    margin-top: 33px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 717px;
+    width: 100%;
+}
+
+.card {
+    background-color: white;
+    padding: 33px 30px;
+    border-radius: 10px; 
+}
