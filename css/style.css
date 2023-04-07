@@ -12,7 +12,6 @@ header {
     padding: 53px 98px;
     align-items: center;
     justify-content: space-around;
-    background-color: aquamarine;
 }
 
 nav {}
@@ -78,5 +77,60 @@ p {
 .card {
     background-color: white;
     padding: 33px 30px;
-    border-radius: 10px; 
+    border-radius: 10px;
+    /* width: 30%;
+    height: 333px;  */
+}
+
+/* footer */
+
+footer {
+    background-color: #758BFD;
+    padding: 75px 98px;
+}
+
+.footerMain {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+h2 {
+    font-size: 18px;
+    color: #00CAD7;
+}
+
+.email {
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.socialMediaIcons {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    width: 160px;
+}
+
+.fa-brands {
+    color: antiquewhite;
+    width: 22px;
+    height: 22px;
+}
+
+footer div ul li {
+    font-size: 13px;
+    color: #FFFFFF;
+}
+.trendingColumn {
+    height: 156px;
+}
+
+.columnTexts {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    gap: 12px;
 }
